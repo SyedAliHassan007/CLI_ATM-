@@ -1,0 +1,25 @@
+{
+  "name": "@syedalihassan_007/cli_atm-",
+  "version": "1.1.0",
+  "description": "This is CLI-Based ATM",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "cli_atm-": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Syed_Ali_Hassan",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
